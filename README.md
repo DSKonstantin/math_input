@@ -2,7 +2,7 @@
 
 This gem allows perform mathematical operations in the field.
 
-![alt tag]('assets/images/demo.gif')
+![demo](https://github.com/DSKonstantin/math_input/blob/master/vendor/assets/images/demo.gif)
 
 =======
 
