@@ -1,12 +1,10 @@
-<<<<<<< HEAD
-# math_input
-Simple form math input.
+# Rails Math Input Picker
+
+This gem allows perform mathematical operations in the field.
+
+![alt tag]('assets/images/demo.gif')
+
 =======
-# MathInput
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/math_input`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -26,7 +24,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    //= require math_input        - include JS
+    $('.math-picker').MathInput() - initialize Plugin
+
+if you use simple_form gem then can use 
+    
+    as: :math_input
+
+OR determine class on input
+
+    <input class='math_input' .... >
 
 ## Development
 
@@ -38,4 +45,3 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/math_input.
 
->>>>>>> first commit

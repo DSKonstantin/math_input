@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["ko.dyachenko@gmail.com"]
 
   spec.summary       = 'aas'
-  spec.description   = "'It's just simple_form wrapper for JS"
-  # spec.homepage      = 'ss'
+  spec.description   = "This gem allows perform mathematical operations in the field."
+  spec.homepage      = 'https://github.com/DSKonstantin/math_input'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
