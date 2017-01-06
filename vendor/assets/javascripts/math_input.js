@@ -1,5 +1,5 @@
 (function($) {
-    $.fn.MathInput = function(options) {
+    $.fn.mathInput = function(options) {
         var _calculateResult, _checkLastCharacter, _clearValue, _revertValue, _validateValue;
         this.settings = {
             valid_characters: (options != null ? options.valid_characters : void 0) || '0123456789+-()*/.',

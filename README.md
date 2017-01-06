@@ -25,7 +25,7 @@ Or install it yourself as:
 ## Usage
 
     //= require math_input        - include JS
-    $('.math-picker').MathInput() - initialize Plugin
+    $('.math-picker').mathInput() - initialize Plugin
 
 if you use simple_form gem then can use 
     
