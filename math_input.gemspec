@@ -9,8 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Konstantin Dyachenko"]
   spec.email         = ["ko.dyachenko@gmail.com"]
 
+  spec.summary       = 'JS'
   spec.description   = "This gem allows perform mathematical operations in the field."
   spec.homepage      = 'https://github.com/DSKonstantin/math_input'
+
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
